@@ -8,11 +8,11 @@ import { About, Contact, Home, Work } from './Components/index.js'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/work' element={<Work />} />
-      <Route path='/contact' element={<Contact />} />
+    <Route path='/Profile/' element={<Layout />}>
+      <Route path='/Profile/' element={<Home />} />
+      <Route path='/Profile/about' element={<About />} />
+      <Route path='/Profile/work' element={<Work />} />
+      <Route path='/Profile/contact' element={<Contact />} />
     </Route>
   )
 )
